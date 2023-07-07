@@ -1,0 +1,65 @@
+{
+    "Education": [
+        {
+            "name": "University of Central Florida",
+            "logo": "ucf.jpg",
+            "degrees": [
+                {
+                    "type": "Bachelor of Science",
+                    "topic": "Computer Science"
+                },
+                {
+                    "type": "Minor",
+                    "topic": "Robotics"
+                },
+                {
+                    "type": "Minor",
+                    "topic": "Cybersecurity"
+                }
+            ],
+            "start": "Fall 2022",
+            "end": "Spring 2026"
+        },
+        {
+            "name": "Bartow High School",
+            "logo": "bhs.png",
+            "degrees": [
+                {
+                    "type": "IB Diploma"
+                }
+            ],
+            "start": "August 2018",
+            "end": "May 2022"
+        }
+    ],
+    "Experience": [
+        {
+            "company": "UCF VARLab",
+            "title": "Undergraduate Research Assistant",
+            "logo": "varlab.webp",
+            "description": "I worked on several simulation projects in a research lab focused on virtual reality and its applications",
+            "start": "May 2023",
+            "end": "Present",
+            "tags": ["Angular", "Unity", "VR", "Three.js", "JavaScript"]
+        },
+        {
+            "company": "UCF Programming Team",
+            "companylink": "https://www.ucfprogrammingteam.org/",
+            "title": "Varsity Team Member",
+            "logo": "ucf.jpg",
+            "description": "I trained to compete regionally in competitive programming",
+            "start": "September 2022",
+            "end": "April 2023",
+            "tags": ["C++", "Java", "Python", "Problem Solving"]
+        },
+        {
+            "company": "Lockheed Martin",
+            "title": "Information Technology Intern",
+            "logo": "lockheedmartin.png",
+            "description": "I led a project to automate asset tracking notifications for computer hardware that needed to be returned",
+            "start": "June 2022",
+            "end": "August 2022",
+            "tags": ["JavaScript", "Python", "ServiceNow", "SQL"]
+        }
+    ]
+}

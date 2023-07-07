@@ -1,0 +1,27 @@
+.navbar {
+    height: 5rem;
+    background-color: #121212;
+    color: white;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    /* justify-self:last baseline; */
+    margin-right: auto;
+}
+
+.headers {
+    /* justify-self: end; */
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: flex-end; */
+    display: flex;
+}
+
+h2 {
+    padding: 0.5rem;
+}

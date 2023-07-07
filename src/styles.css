@@ -1,0 +1,49 @@
+.root-container {
+    /* background-color: #282c34; */
+    min-height: 100vh;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* font-size: calc(10px + 2vmin); */
+    /* color: white; */
+    /* use instead of margin so that background color stays */
+    padding: 1rem;
+}
+
+.circle-image {
+    border-radius: 100%;
+}
+
+.card {
+    margin: 2rem;
+    padding: 0.5rem;
+}
+
+.title-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.logo {
+    margin-right: 1rem;
+}
+
+.date {
+    margin-left: auto;
+    display: flex;
+}
+
+.tag-list {
+    display: flex;
+}
+
+.tag {
+    /* background-color: var(--mui-palette-primary-main); */
+    border-radius: 2rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.tag-in-list {
+    margin-right: 1rem;
+}

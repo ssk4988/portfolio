@@ -1,0 +1,13 @@
+.pfp {
+    margin-right: 2rem;
+}
+
+.summary-statement {
+    /* font-size: 1rem; */
+    /* text-align: justify; */
+}
+
+.description {
+    display: flex;
+    /* text-align: flex-start; */
+}
