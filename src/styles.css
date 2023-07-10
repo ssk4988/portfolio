@@ -47,3 +47,8 @@
 .tag-in-list {
     margin-right: 1rem;
 }
+
+.card-description {
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}

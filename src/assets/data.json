@@ -40,7 +40,13 @@
             "description": "I worked on several simulation projects in a research lab focused on virtual reality and its applications",
             "start": "May 2023",
             "end": "Present",
-            "tags": ["Angular", "Unity", "VR", "Three.js", "JavaScript"]
+            "tags": [
+                "Angular",
+                "Unity",
+                "VR",
+                "Three.js",
+                "JavaScript"
+            ]
         },
         {
             "company": "UCF Programming Team",
@@ -50,7 +56,12 @@
             "description": "I trained to compete regionally in competitive programming",
             "start": "September 2022",
             "end": "April 2023",
-            "tags": ["C++", "Java", "Python", "Problem Solving"]
+            "tags": [
+                "C++",
+                "Java",
+                "Python",
+                "Problem Solving"
+            ]
         },
         {
             "company": "Lockheed Martin",
@@ -59,7 +70,131 @@
             "description": "I led a project to automate asset tracking notifications for computer hardware that needed to be returned",
             "start": "June 2022",
             "end": "August 2022",
-            "tags": ["JavaScript", "Python", "ServiceNow", "SQL"]
+            "tags": [
+                "JavaScript",
+                "Python",
+                "ServiceNow",
+                "SQL"
+            ]
         }
-    ]
+    ],
+    "Projects": [
+        {
+            "name": "Portfolio Website",
+            "logo": "react.png",
+            "description": "A portfolio website made in React (you're looking at it right now)",
+            "tags": [
+                "React",
+                "JavaScript",
+                "Material UI"
+            ]
+        },
+        {
+            "name": "Computer Vision App (WIP)",
+            "logo": "flutter.png",
+            "description": "I'm developing a Flutter mobile app to let users test computer vision models and crowdsource labeled data for retraining",
+            "tags": [
+                "Computer Vision",
+                "Tensorflow",
+                "Flutter",
+                "Dart"
+            ]
+        },
+        {
+            "name": "Platform Art Mobile App (Now Defunct)",
+            "logo": "reactnativefirebase.jpg",
+            "description": "Developed a React Native mobile app for Platform Art, a non-profit in Lakeland, FL",
+            "tags": [
+                "React Native",
+                "JavaScript",
+                "Firebase",
+                "Android",
+                "iOS"
+            ]
+        },
+        {
+            "name": "Blockchain Security",
+            "logo": "python.png",
+            "description": "Implemented a basic blockchain and wrote an essay on blockchain and its security features",
+            "tags": [
+                "Python",
+                "Blockchain"
+            ]
+        },
+        {
+            "name": "ArcherX",
+            "logo": "unity.png",
+            "description": "A 3D Archery game team project with multiple modes of gameplay and a basic storyline",
+            "tags": [
+                "Unity",
+                "C#"
+            ]
+        },
+        {
+            "name": "FBLA Quiz!",
+            "logo": "fblaquiz.png",
+            "description": "Trivia app that quizzes participants about FBLA (Future Business Leaders of America)",
+            "tags": [
+                "React Native",
+                "JavaScript",
+                "Firebase",
+                "Android"
+            ]
+        },
+        {
+            "name": "YouShop",
+            "logo": "youshop.png",
+            "description": "Integrated shopping app team project in React Native with Etsy, Best Buy, eBay",
+            "tags": [
+                "React Native",
+                "JavaScript",
+                "Firebase",
+                "Android",
+                "API"
+            ]
+        }
+    ],
+    "Skills": {
+        "Languages": [
+            "Java",
+            "Python",
+            "C++",
+            "JavaScript",
+            "C#",
+            "C",
+            "SQL"
+        ],
+        "Frameworks": [
+            "Angular",
+            "React",
+            "React Native",
+            "Flutter",
+            "Unity",
+            "FastAPI",
+            "Selenium"
+        ],
+        "Developer Tools": [
+            "Git",
+            "Visual Studio",
+            "Visual Studio Code",
+            "Jupyter Notebook"
+        ],
+        "Machine Learning": [
+            "Tensorflow",
+            "PyTorch",
+            "scikit-learn",
+            "OpenCV"
+        ],
+        "Cybersecurity": [
+            "Cryptography",
+            "Palo Alto Firewalls",
+            "Networking"
+        ]
+    },
+    "Logos": {
+        "Python": "python.png",
+        "React": "react.png",
+        "Unity": "unity.png",
+        "Flutter": "flutter.png"
+    }
 }

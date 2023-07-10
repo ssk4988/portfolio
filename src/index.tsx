@@ -11,6 +11,8 @@ import About from './About';
 import { createTheme, CssBaseline, ThemeOptions } from '@mui/material';
 import { ThemeProvider } from '@emotion/react';
 import ExperiencePage from './ExperiencePage';
+import ProjectsPage from './ProjectsPage';
+import Skills from './Skills';
 
 // https://zenoo.github.io/mui-theme-creator/
 
@@ -45,6 +47,14 @@ const router = createBrowserRouter([
   {
     path: "/experience",
     element: <ExperiencePage />
+  },
+  {
+    path: "/projects",
+    element: <ProjectsPage />
+  },
+  {
+    path: "/skills",
+    element: <Skills />
   }
 ]);
 

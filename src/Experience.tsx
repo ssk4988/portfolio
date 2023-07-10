@@ -1,7 +1,6 @@
 import { Avatar, Button, Card, CardContent } from '@mui/material';
 import useImage from './useImage';
 import './styles.css';
-import './Experience.css';
 import Tag from './Tag';
 import { useTheme } from "@mui/material";
 
@@ -22,10 +21,10 @@ function Experience(props: any) {
                         <p>{data.start + ' - ' + data.end}</p>
                     </div>
                 </div>
-                
                 {data.description && 
-                    <i style={{color: theme.palette.text.secondary}} className='description'>{data.description}</i>
+                    <i style={{color: theme.palette.text.secondary}} className='card-description'>{data.description}</i>
                 }
+                {/* TODO: replace this with JSON Markdown */}
                 {data.company == 'UCF VARLab' && 
                     <div>
                         Projects:
@@ -52,7 +51,14 @@ function Experience(props: any) {
                         <ul>
                             <li>Team members train year-long in algorithms, data structures, and problem-solving skills in Java, C++, and Python</li>
                             <li>They apply these skills in team-based competitive programming competitions, the most notable being ACM’s International Collegiate Programming Contest (ICPC)</li>
-                            <li>I competed in the 2022 ACM-ICPC Southeast Regional Competition, placing 6th with my team (named UCF Command Block). I am also in the top 3% of active competitive programmers on CodeForces. More information is available <a href="https://www.ucfprogrammingteam.org/">here</a></li>
+                            <li>I competed in the 2022 ACM-ICPC Southeast Regional Competition, placing 6th with my team (named UCF Command Block). I am also in the top 3% of active competitive programmers on CodeForces.</li>
+
+                        </ul>
+                        Additional Resources:
+                        <ul>
+                            <li><a href="https://www.ucfprogrammingteam.org/">UCF Programming Team Website</a></li>
+                            <li><a href="https://nasouth22d1.kattis.com/contests/nasouth22d1/standings?filter=4997">Regionals Performance</a></li>
+                            <li><a href="https://codeforces.com/profile/ssk4988">CodeForces Profile</a></li>
                         </ul>
                     </div>
                 }
