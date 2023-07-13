@@ -8,7 +8,7 @@ import Project from './Project';
 
 
 function ProjectsPage() {
-  let projectList = data.Projects.map(project=><Project key={project.name} data={project}></Project>);
+  let projectList = data.Projects.map(project=><Project key={project.name} project={project}></Project>);
   return (
     <React.Fragment>
       <Header />

@@ -19,6 +19,7 @@
     padding: 0.5rem;
 }
 
+
 .title-logo {
     display: flex;
     align-items: center;
@@ -38,6 +39,17 @@
     display: flex;
 }
 
+.center-row {
+    display: flex;
+    align-items: center;
+}
+
+.center-center-row {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
 .tag {
     /* background-color: var(--mui-palette-primary-main); */
     border-radius: 2rem;
@@ -51,6 +63,19 @@
 .card-description {
     margin-bottom: 0.5rem;
     display: inline-block;
+}
+
+.skill-card {
+    margin: 1rem;
+}
+
+.award-card {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    width: 15rem;
+    height: 15rem;
+    margin: 2rem;
 }
 
 .skill {

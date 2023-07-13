@@ -1,31 +1,33 @@
 import { Avatar, Button, Card, CardContent } from '@mui/material';
 import useImage from './useImage';
+import data from './assets/data.json';
 import './styles.css';
 import Tag from './Tag';
 import { useTheme } from "@mui/material";
 
 function Experience(props: any) {
-    let { data } = props;
+    const logos = data.Logos as { [key: string]: string };
+    let { experience } = props;
     const theme = useTheme();
-    const { loading, error, image } = useImage(data.logo);
-    let tags = data.tags.map((tag:string)=><Tag key={tag} data={tag}></Tag>);
+    const { loading, error, image } = useImage(experience.logo in logos ? logos[experience.logo] : '');
+    let tags = experience.tags.map((tag:string)=><Tag key={tag} data={tag}></Tag>);
     return (
         <Card className="card">
             <CardContent>
                 <div className='title-logo'>
-                    {data.logo && <Avatar src={image} sx={{ border: 2, borderColor: 'white' }} className='logo' />}
-                    <h3>{data.company}</h3>
-                    {/* {data.companylink && <Button sx={{}}>{data.company}</Button>} */}
-                    <p>&nbsp;{'| ' + data.title}</p>
+                    {experience.logo && <Avatar src={image} sx={{ border: 2, borderColor: 'white' }} className='logo' />}
+                    <h3>{experience.company}</h3>
+                    {/* {experience.companylink && <Button sx={{}}>{experience.company}</Button>} */}
+                    <p>&nbsp;{'| ' + experience.title}</p>
                     <div className='date'>
-                        <p>{data.start + ' - ' + data.end}</p>
+                        <p>{experience.start + ' - ' + experience.end}</p>
                     </div>
                 </div>
-                {data.description && 
-                    <i style={{color: theme.palette.text.secondary}} className='card-description'>{data.description}</i>
+                {experience.description && 
+                    <i style={{color: theme.palette.text.secondary}} className='card-description'>{experience.description}</i>
                 }
                 {/* TODO: replace this with JSON Markdown */}
-                {data.company == 'UCF VARLab' && 
+                {experience.company == 'UCF VARLab' && 
                     <div>
                         Projects:
                         <ul>
@@ -46,7 +48,7 @@ function Experience(props: any) {
                         </ul>
                     </div>
                 }
-                {data.company == 'UCF Programming Team' &&
+                {experience.company == 'UCF Programming Team' &&
                     <div>
                         <ul>
                             <li>Team members train year-long in algorithms, data structures, and problem-solving skills in Java, C++, and Python</li>
@@ -62,7 +64,7 @@ function Experience(props: any) {
                         </ul>
                     </div>
                 }
-                {data.company == 'Lockheed Martin' &&
+                {experience.company == 'Lockheed Martin' &&
                     <div>
                         <ul>
                             <li>Implemented prototype in Python using Windows APIs</li>

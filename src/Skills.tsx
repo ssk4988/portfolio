@@ -12,12 +12,12 @@ function Skills() {
   return (
     <React.Fragment>
       <Header />
-      <Container component='main' maxWidth='xl' className='root-container'>
+      <Container component='main' maxWidth='xl' className='root-container' sx={{textAlign: 'center'}}>
         {Object.keys(data.Skills).map((category: string) => {
           let skillList = skillsobj[category];
-          return <Card className="card">
+          return <Card className="skill-card" sx={{display: 'inline-block', textAlign: 'center'}}>
             <CardContent>
-                <h4>{category}</h4>
+                <h1>{category}</h1>
                 <div className='row'>
                   {skillList.map((skill: string) => { return <Skill name={skill} /> })}
                 </div>
