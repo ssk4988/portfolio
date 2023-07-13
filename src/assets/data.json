@@ -101,7 +101,7 @@
             ]
         },
         {
-            "name": "Platform Art Mobile App (Now Defunct)",
+            "name": "Platform Art Mobile App",
             "logo": "reactnativefirebase.jpg",
             "description": "Developed a React Native mobile app for Platform Art, a non-profit in Lakeland, FL",
             "tags": [
@@ -156,13 +156,13 @@
     ],
     "Skills": {
         "Languages": [
+            "C++",
             "Java",
             "Python",
-            "C++",
             "JavaScript",
+            "TypeScript",
             "C#",
-            "C",
-            "SQL"
+            "C"
         ],
         "Frameworks": [
             "Angular",
@@ -193,8 +193,33 @@
     },
     "Logos": {
         "Python": "python.png",
+        "Java": "java.png",
+        "JavaScript": "javascript.png",
+        "TypeScript": "typescript.png",
+        "C": "c.png",
+        "C#": "csharp.png",
+        "C++": "cplusplus.png",
+        "Angular": "angular.png",
         "React": "react.png",
+        "React Native": "react.png",
         "Unity": "unity.png",
-        "Flutter": "flutter.png"
-    }
+        "Flutter": "flutter.png",
+        "FastAPI": "fastapi.svg",
+        "Selenium": "selenium.png",
+        "Git": "git.png",
+        "Visual Studio": "visualstudio.png",
+        "Visual Studio Code": "visualstudiocode.png",
+        "Jupyter Notebook": "jupyternotebook.png",
+        "Tensorflow": "tensorflow.png",
+        "PyTorch": "pytorch.png",
+        "OpenCV": "opencv.png"
+    },
+    "Awards": [
+        {
+            "award": "6th Place",
+            "context": "ACM ICPC Southeast Regionals",
+            "year": 2023,
+            "contextlogo": "icpc.png"
+        }
+    ]
 }

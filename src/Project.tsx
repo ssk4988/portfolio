@@ -75,7 +75,7 @@ function Project(props: any) {
                         </ul>
                     </div>
                 }
-                <div className='tag-list'>
+                <div className='row'>
                     {tags}
                 </div>
             </CardContent>

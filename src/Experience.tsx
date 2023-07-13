@@ -51,7 +51,7 @@ function Experience(props: any) {
                         <ul>
                             <li>Team members train year-long in algorithms, data structures, and problem-solving skills in Java, C++, and Python</li>
                             <li>They apply these skills in team-based competitive programming competitions, the most notable being ACM’s International Collegiate Programming Contest (ICPC)</li>
-                            <li>I competed in the 2022 ACM-ICPC Southeast Regional Competition, placing 6th with my team (named UCF Command Block). I am also in the top 3% of active competitive programmers on CodeForces.</li>
+                            <li>I competed in the 2022 ACM-ICPC Southeast Regional Competition, placing 6th with my team (named UCF Command Block). I am also in the top 100 active US competitive programmers on CodeForces.</li>
 
                         </ul>
                         Additional Resources:
@@ -71,7 +71,7 @@ function Experience(props: any) {
                         </ul>
                     </div>
                 }
-                <div className='tag-list'>
+                <div className='row'>
                     {tags}
                 </div>
             </CardContent>

@@ -3,11 +3,10 @@ import Header from './Header';
 import './styles.css';
 import data from './assets/data.json';
 import { Card, CardContent, Container } from '@mui/material';
-import Skill from './Skill';
 
 
 
-function Skills() {
+function Awards() {
   let skillsobj = data.Skills as { [key: string]: string[] };
   return (
     <React.Fragment>
@@ -19,7 +18,7 @@ function Skills() {
             <CardContent>
                 <h4>{category}</h4>
                 <div className='row'>
-                  {skillList.map((skill: string) => { return <Skill name={skill} /> })}
+                  {/* {skillList.map((skill: string) => { return <Skill name={skill} /> })} */}
                 </div>
             </CardContent>
           </Card>;
@@ -29,4 +28,4 @@ function Skills() {
   );
 }
 
-export default Skills;
+export default Awards;
