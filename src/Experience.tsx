@@ -17,7 +17,6 @@ function Experience(props: any) {
                 <div className='title-logo'>
                     {experience.logo && <Avatar src={image} sx={{ border: 2, borderColor: 'white' }} className='logo' />}
                     <h3>{experience.company}</h3>
-                    {/* {experience.companylink && <Button sx={{}}>{experience.company}</Button>} */}
                     <p>&nbsp;{'| ' + experience.title}</p>
                     <div className='date'>
                         <p>{experience.start + ' - ' + experience.end}</p>
@@ -32,17 +31,19 @@ function Experience(props: any) {
                         Projects:
                         <ul>
                             <li>
-                                Chip Factory Digital Twin
+                                Chip Factory Digital Twin - Web-based project to simulate and optimize complex manufacturing processes of a computer chip manufacturing company
                                 <ul>
-                                    <li>Web-based project to simulate and optimize complex manufacturing processes  computer chip manufacturing company using Angular and Three.js</li>
-                                    <li>I worked on data visualizations for the machines, the backend, and the animations of the processes</li>
+                                    <li>Optimized runtimes and animation playback in Three.js</li>
+                                    <li>Created data visualizations using Plotly.js and Apache Echarts</li>
+                                    <li>Worked on the backend using FastAPI</li>
                                 </ul>
                             </li>
                             <li>
-                                Architecture Review
+                                VR Cityscape Viewer - VR project for viewing cityscapes in 3D, immersive reality
                                 <ul>
-                                    <li>VR project for reviewing architecture designs in 3D, immersive reality</li>
-                                    <li>rendered on the CAVE, a proprietary room-based VR technology developed by the VARLab</li>
+                                    <li>Rendered on the CAVE, a proprietary room-based VR technology developed by the VARLab</li>
+                                    <li>Developed in Unity with SteamVR</li>
+                                    <li>Allows you to seamlessly switch between flying through cities and viewing them as a whole</li>
                                 </ul>
                             </li>
                         </ul>
@@ -53,7 +54,7 @@ function Experience(props: any) {
                         <ul>
                             <li>Team members train year-long in algorithms, data structures, and problem-solving skills in Java, C++, and Python</li>
                             <li>They apply these skills in team-based competitive programming competitions, the most notable being ACM’s International Collegiate Programming Contest (ICPC)</li>
-                            <li>I competed in the 2022 ACM-ICPC Southeast Regional Competition, placing 6th with my team (named UCF Command Block). I am also in the top 100 active US competitive programmers on CodeForces.</li>
+                            <li>I competed in the 2022 ACM-ICPC Southeast Regional Competition, placing 6th with my team (named UCF Command Block). I am also in the top 100 active competitive programmers in the US on CodeForces.</li>
 
                         </ul>
                         Additional Resources:
