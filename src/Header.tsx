@@ -8,7 +8,14 @@ function Header() {
   let pages = ['about', 'experience', 'projects', 'skills', 'awards'];
   const navigate = useNavigate();
   let navToPage = (page: string) => {
-    navigate("/" + page)
+    if (page == 'home') page = 'about'; // make home the top of page
+    const section = document.querySelector('#' + page);
+    if(section){
+      section.scrollIntoView( { behavior: 'smooth', block: 'start' } );
+    }
+    else{
+      // navigate("/" + page);
+    }
   };
   return (<AppBar position='sticky'>
     <Container maxWidth="xl">
@@ -16,7 +23,7 @@ function Header() {
         <Box sx={{ flexGrow: 1 }}>
           <Button
             key="home"
-            onClick={() => navToPage('')}
+            onClick={() => navToPage('home')}
             sx={{ my: 2, color: 'white', display: 'block' }}
           >
             {"<sachin></sivakumar>"}

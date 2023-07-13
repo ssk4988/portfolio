@@ -4,18 +4,9 @@
             "name": "University of Central Florida",
             "logo": "ucf.jpg",
             "degrees": [
-                {
-                    "type": "Bachelor of Science",
-                    "topic": "Computer Science"
-                },
-                {
-                    "type": "Minor",
-                    "topic": "Robotics"
-                },
-                {
-                    "type": "Minor",
-                    "topic": "Cybersecurity"
-                }
+                "BS in Computer Science",
+                "Minor in Robotics",
+                "Minor in Cybersecurity"
             ],
             "start": "Fall 2022",
             "end": "Spring 2026"
@@ -24,9 +15,7 @@
             "name": "Bartow High School",
             "logo": "bhs.png",
             "degrees": [
-                {
-                    "type": "IB Diploma"
-                }
+                "IB Diploma"
             ],
             "start": "August 2018",
             "end": "May 2022"
@@ -232,7 +221,8 @@
             "award": "6th Place",
             "context": "ACM ICPC Southeast Regionals",
             "year": 2023,
-            "contextlogo": "ICPC"
+            "contextlogo": "ICPC",
+            "tooltip": "As part of UCF Command Block"
         },
         {
             "award": "10th Place",
@@ -244,7 +234,8 @@
             "award": "Candidate Master",
             "context": "CodeForces",
             "year": 2023,
-            "contextlogo": "CodeForces"
+            "contextlogo": "CodeForces",
+            "tooltip": "Current Rating: 2020, Top 100 Active US Competitors"
         },
         {
             "award": "7th Place",

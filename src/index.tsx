@@ -14,6 +14,7 @@ import ExperiencePage from './ExperiencePage';
 import ProjectsPage from './ProjectsPage';
 import Skills from './Skills';
 import Awards from './Awards';
+import AppRouter from './AppRouter';
 
 // https://zenoo.github.io/mui-theme-creator/
 
@@ -70,7 +71,8 @@ root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <RouterProvider router={router} />
+      <AppRouter/>
+      {/* <RouterProvider router={router} /> */}
     </ThemeProvider>
 
   </React.StrictMode>

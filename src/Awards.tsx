@@ -9,12 +9,9 @@ import Award from './Award';
 
 function Awards() {
   return (
-    <React.Fragment>
-      <Header />
-      <Container component='main' maxWidth='xl' className='root-container' style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center'}}>
-        {data.Awards.map(award=><Award key={award.award} data={award}/>)}
-      </Container>
-    </React.Fragment>
+    <Container component='main' maxWidth='xl' className='root-container' style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+      {data.Awards.map(award => <Award key={award.award} data={award} />)}
+    </Container>
   );
 }
 

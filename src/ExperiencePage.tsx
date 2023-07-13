@@ -8,14 +8,11 @@ import Experience from './Experience';
 
 
 function ExperiencePage() {
-  let experienceList = data.Experience.map(experience=><Experience key={experience.company} experience={experience}></Experience>);
+  let experienceList = data.Experience.map(experience => <Experience key={experience.company} experience={experience}></Experience>);
   return (
-    <React.Fragment>
-      <Header />
-      <Container component='main' maxWidth='xl' className='root-container'>
-        {experienceList}
-      </Container>
-    </React.Fragment>
+    <Container component='main' maxWidth='xl' className='root-container'>
+      {experienceList}
+    </Container>
   );
 }
 
