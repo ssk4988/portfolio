@@ -16,7 +16,7 @@ function Education(props: any) {
                         {/* {data.degrees.map((degree: any) => <p>{degree.type}{degree.topic ? ' in ' + degree.topic : ''}</p>)} */}
                     </div>
                     <div className='date'>
-                        <p>{data.start + ' - ' + data.end}</p>
+                        <p>{data.end ? (data.start + ' - ' + data.end) : data.start}</p>
                     </div>
                 </div>
             </CardContent>
