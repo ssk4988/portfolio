@@ -8,8 +8,7 @@
                 "Minor in Robotics",
                 "Minor in Cybersecurity"
             ],
-            "start": "Fall 2022",
-            "end": "Spring 2026"
+            "start": "Fall 2022"
         },
         {
             "name": "Bartow High School",
@@ -121,7 +120,7 @@
             ]
         },
         {
-            "name": "FBLA Quiz!",
+            "name": "FBLA Quiz! - Trivia App",
             "logo": "FBLA Quiz",
             "description": "Trivia app that quizzes participants about FBLA (Future Business Leaders of America)",
             "tags": [
@@ -132,7 +131,7 @@
             ]
         },
         {
-            "name": "YouShop",
+            "name": "YouShop - Comparison Shopping App",
             "logo": "YouShop",
             "description": "Integrated shopping app team project in React Native with Etsy, Best Buy, eBay",
             "tags": [
