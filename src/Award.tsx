@@ -10,6 +10,7 @@ function Award(props: any) {
     const logoobj = useImage(props.data.logo in logos ? logos[props.data.logo] : '');
     let color: string = theme.palette.text.primary;
     if (props.data.award == 'Candidate Master') color = '#a0a';
+    if (props.data.award == 'Master') color = '#ff8c00';
     if (props.data.award == 'Platinum Division') color = '#d1d1d0';
     return (
         <ConditionalWrapper
