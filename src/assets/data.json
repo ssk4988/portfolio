@@ -216,9 +216,17 @@
         "Platinum": "platinum.jpg",
         "Boy Scouts of America": "bsa.png",
         "Eagle Scout": "eaglescout.png",
-        "Meta Hacker Cup": "hackercup.webp"
+        "Meta Hacker Cup": "hackercup.webp",
+        "2nd Place": "second.png"
     },
     "Awards": [
+        {
+            "award": "2nd Place",
+            "logo": "2nd Place",
+            "context": "UCF Local Programming Contest",
+            "year": 2023,
+            "contextlogo": "UCF"
+        },
         {
             "award": "6th Place",
             "context": "ACM ICPC Southeast Regionals",
@@ -227,17 +235,17 @@
             "tooltip": "As part of UCF Command Block"
         },
         {
+            "award": "Master",
+            "context": "CodeForces",
+            "year": 2023,
+            "contextlogo": "CodeForces",
+            "tooltip": "Max Rating: 2128, Top 100 Active Coders in the US"
+        },
+        {
             "award": "10th Place",
             "context": "UCF Local Programming Contest",
             "year": 2022,
             "contextlogo": "UCF"
-        },
-        {
-            "award": "Candidate Master",
-            "context": "CodeForces",
-            "year": 2023,
-            "contextlogo": "CodeForces",
-            "tooltip": "Current Rating: 2020, Top 100 Active Coders in the US"
         },
         {
             "award": "7th Place",

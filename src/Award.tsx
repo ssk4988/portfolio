@@ -9,8 +9,20 @@ function Award(props: any) {
     const { loading, error, image } = useImage(props.data.contextlogo in logos ? logos[props.data.contextlogo] : '');
     const logoobj = useImage(props.data.logo in logos ? logos[props.data.logo] : '');
     let color: string = theme.palette.text.primary;
-    if (props.data.award == 'Candidate Master') color = '#a0a';
-    if (props.data.award == 'Platinum Division') color = '#d1d1d0';
+    switch(props.data.award){
+        case 'Candidate Master':
+            color = '#a0a';
+            break;
+        case 'Master':
+            color = '#ff8c00';
+            break;
+        case 'Platinum Division':
+            color = '#d1d1d1';
+            break;
+        case '2nd Place':
+            color = '#b2afa3';
+        break;
+    }
     return (
         <ConditionalWrapper
             condition={props.data.tooltip}
