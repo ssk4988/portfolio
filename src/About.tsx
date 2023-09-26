@@ -15,7 +15,7 @@ function About() {
       <div className='description'>
         <Avatar alt="Sachin Sivakumar" src={pfp} className='pfp' sx={{ width: '5rem', height: '5rem' }} />
         <p className='summary-statement'>Hi, I’m Sachin!
-          I’m an aspiring competitive programmer with an interest in software development, artificial intelligence, and cybersecurity.
+          I’m an accomplished competitive programmer and open-source contributor with an interest in software development, artificial intelligence, and cybersecurity.
           This is a portfolio I made for showing off what I've done so far. Feel free to check out what I'm working on!
         </p>
       </div>
