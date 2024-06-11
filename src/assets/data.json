@@ -5,10 +5,11 @@
             "logo": "ucf.jpg",
             "degrees": [
                 "BS in Computer Science",
-                "Minor in Robotics",
+                "Minor in Mathematics",
                 "Minor in Cybersecurity"
             ],
-            "start": "Fall 2022"
+            "start": "Fall 2022",
+            "end": "Spring 2026"
         },
         {
             "name": "Bartow High School",
@@ -16,8 +17,8 @@
             "degrees": [
                 "IB Diploma"
             ],
-            "start": "August 2018",
-            "end": "May 2022"
+            "start": "Fall 2018",
+            "end": "Spring 2022"
         }
     ],
     "Experience": [
@@ -28,12 +29,31 @@
             "description": "Worked on several simulation projects in a research lab focused on virtual reality and its applications",
             "start": "May 2023",
             "end": "Present",
+            "markdown": [
+                "### Projects",
+                "",
+                "- Chip Factory Digital Twin",
+                "   - Web-based graphical simulation and optimization of the complex manufacturing processes of a computer chip manufacturing company",
+                "   - Developed full-stack and contributed to Three.js source code",
+                "   - Greatly optimized animation playback and other tasks using algorithmic and data structure knowledge",
+                "   - Created data visualizations using Plotly.js and Apache Echarts",
+                "   - Worked on the backend using FastAPI",
+                "- VR Cityscape Viewer",
+                "   - VR project for reviewing architecture designs in 3D, immersive reality",
+                "   - rendered on the CAVE, a proprietary room-based VR technology developed by the VARLab",
+                "   - Allows you to seamlessly switch between flying through cities and viewing them as a whole",
+                "- Earth XR",
+                "   - Google Earth-like VR experience",
+                "   - Allows you to literally fly around the world, visiting some of the world's best landmarks in all of their 3D glory through VR"
+            ],
             "tags": [
                 "Angular",
                 "Unity",
                 "VR",
+                "C#",
                 "Three.js",
                 "JavaScript",
+                "Python",
                 "FastAPI"
             ]
         },
@@ -42,9 +62,29 @@
             "companylink": "https://www.ucfprogrammingteam.org/",
             "title": "Varsity Team Member",
             "logo": "UCF",
-            "description": "Trained to compete regionally in competitive programming competitions",
+            "description": "Training to compete in collegiate competitive programming contests at the national and international level",
             "start": "September 2022",
             "end": "Present (Seasonal)",
+            "markdown": [
+                "- Intensively trained year-long, spending over 20 hours per week in algorithms, data structures, and problem-solving skills in Java, C++, and Python",
+                "- Competed in the International Collegiate Programming Contest (ICPC) and advanced to the North America Championship",
+                "- I competed in the 2023 ACM-ICPC Southeast Regional Competition, placing 1st with my team (named UCF Apocalypse Attack).",
+                "- I am a top 1% competitive programmer and in the top 50 active competitive programmers in the US."
+            ],
+            "links": [
+                {
+                    "name": "Regionals Performance",
+                    "url": "https://nasouth23.kattis.com/contests/nasouth23d1/standings?filter=5667"
+                },
+                {
+                    "name": "CodeForces Profile",
+                    "url": "https://codeforces.com/profile/ssk4988"
+                },
+                {
+                    "name": "UCF Programming Team",
+                    "url": "https://www.ucfprogrammingteam.org/"
+                }
+            ],
             "tags": [
                 "C++",
                 "Java",
@@ -54,24 +94,51 @@
         },
         {
             "company": "Lockheed Martin",
+            "companylink": "https://www.lockheedmartin.com/",
             "title": "Information Technology Intern",
             "logo": "Lockheed Martin",
             "description": "Led a project to automate asset tracking notifications for computer hardware that needed to be returned",
             "start": "June 2022",
             "end": "August 2022",
+            "markdown": [
+                "- Cross-team collaboration to build a custom ServiceNow integration (written in JavaScript)",
+                "- Created a prototype for event-driven automation in Python with Office 365 APIs"
+            ],
             "tags": [
                 "JavaScript",
                 "Python",
                 "ServiceNow",
-                "SQL"
+                "SQL",
+                "Automation"
             ]
         }
     ],
     "Projects": [
         {
+            "name": "Mobopoly",
+            "namelogo": "Mobopoly",
+            "link": "https://mobopoly-866b1.web.app/",
+            "description": "A web-based multiplayer Monopoly game variant with a Mafia theme",
+            "markdown": [
+                "- Served as Project Lead",
+                "- Worked on microservices architecture using Firebase Cloud Functions",
+                "- Designed and implemented frontend website using React and Material UI"
+            ],
+            "tags": [
+                "React",
+                "Firebase",
+                "Phaser",
+                "JavaScript"
+            ]
+        },
+        {
             "name": "Portfolio Website",
             "logo": "React",
+            "link": "https://sachinsivakumar.netlify.app/",
             "description": "A portfolio website made in React (you're looking at it right now)",
+            "markdown": [
+                "- Built from scratch"
+            ],
             "tags": [
                 "React",
                 "JavaScript",
@@ -80,19 +147,32 @@
         },
         {
             "name": "Computer Vision App (WIP)",
-            "logo": "Flutter",
-            "description": "Developing a Flutter mobile app to let users test computer vision models and crowdsource labeled data for retraining",
+            "logo": "React Native",
+            "description": "Developing a mobile app to let users test computer vision models from a variety of classic and novel tasks",
+            "markdown": [
+                "- Allows machine learning engineers to compare model performance on real-world data and crowdsource labeled training data from users",
+                "- Powered by Microsoft Azure Cloud, with a highly scalable backend using containerized apps"
+            ],
             "tags": [
-                "Computer Vision",
+                "React Native",
+                "JavaScript",
+                "PyTorch",
                 "Tensorflow",
-                "Flutter",
-                "Dart"
+                "Python",
+                "Azure",
+                "Docker",
+                "Computer Vision",
+                "FastAPI"
             ]
         },
         {
             "name": "Platform Art Mobile App",
             "logo": "React Native Firebase",
             "description": "Developed a React Native mobile app for Platform Art, a non-profit in Lakeland, FL",
+            "markdown": [
+                "- Visualized Platform Art’s public art projects through an interactive map and directory",
+                "- Integrated with Firebase to make content scalable and maintainable"
+            ],
             "tags": [
                 "React Native",
                 "JavaScript",
@@ -105,6 +185,9 @@
             "name": "Blockchain Security",
             "logo": "Python",
             "description": "Implemented a basic blockchain and wrote an essay on blockchain and its security features",
+            "markdown": [
+                "- Evaluated both by simulation and math the probability of success of 51% attacks to rewrite the ledger using variable percentages of the total CPU Power"
+            ],
             "tags": [
                 "Python",
                 "Blockchain"
@@ -114,6 +197,9 @@
             "name": "ArcherX",
             "logo": "Unity",
             "description": "A 3D Archery game team project with multiple modes of gameplay and a basic storyline",
+            "markdown": [
+                "- Placed 7th at TSA Florida's Game Design competition"
+            ],
             "tags": [
                 "Unity",
                 "C#"
@@ -123,6 +209,10 @@
             "name": "FBLA Quiz! - Trivia App",
             "logo": "FBLA Quiz",
             "description": "Trivia app that quizzes participants about FBLA (Future Business Leaders of America)",
+            "markdown": [
+                "- Global leaderboard maintained through a Firebase server",
+                "- Customize quizzes through the settings page"
+            ],
             "tags": [
                 "React Native",
                 "JavaScript",
@@ -134,6 +224,11 @@
             "name": "YouShop - Comparison Shopping App",
             "logo": "YouShop",
             "description": "Integrated shopping app team project in React Native with Etsy, Best Buy, eBay",
+            "markdown": [
+                "- Placed 7th at TSA Florida’s Software Development competition",
+                "- Firebase server allows to save favorite products",
+                "- Filters to narrow searches"
+            ],
             "tags": [
                 "React Native",
                 "JavaScript",
@@ -217,7 +312,8 @@
         "Boy Scouts of America": "bsa.png",
         "Eagle Scout": "eaglescout.png",
         "Meta Hacker Cup": "hackercup.webp",
-        "2nd Place": "second.png"
+        "2nd Place": "second.png",
+        "Mobopoly": "mobopoly.png"
     },
     "Awards": [
         {

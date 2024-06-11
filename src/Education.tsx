@@ -3,7 +3,7 @@ import useImage from './useImage';
 
 function Education(props: any) {
     let { data } = props;
-    const { loading, error, image } = useImage(data.logo);
+    const { image } = useImage(data.logo);
     let degrees = data.degrees as object[];
     return (
         <Card className="card">
@@ -13,7 +13,6 @@ function Education(props: any) {
                     <div className='column'>
                         <h3 style={{margin: 0}}>{data.name}</h3>
                         <p style={{margin: 0}}>{degrees.join(", ")}</p>
-                        {/* {data.degrees.map((degree: any) => <p>{degree.type}{degree.topic ? ' in ' + degree.topic : ''}</p>)} */}
                     </div>
                     <div className='date'>
                         <p>{data.end ? (data.start + ' - ' + data.end) : data.start}</p>
