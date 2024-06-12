@@ -48,15 +48,18 @@
     display: flex;
 }
 
+.row-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-wrap > * {
+    margin:0.51rem;
+}
+
 .center-row {
     display: flex;
     align-items: center;
-}
-
-.center-center-row {
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
 }
 
 .column {
@@ -65,13 +68,12 @@
 }
 
 .tag {
-    /* background-color: var(--mui-palette-primary-main); */
     border-radius: 2rem;
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
 .tag-in-list {
-    margin-right: 1rem;
+    /* margin-right: 1rem; */
 }
 
 .card-description {

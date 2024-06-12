@@ -51,7 +51,7 @@ function Experience(props: any) {
                 <div className='row' style={{ marginBottom: "1rem" }}>
                     {links}
                 </div>
-                <div className='row'>
+                <div className='row-wrap'>
                     {tags}
                 </div>
             </CardContent>

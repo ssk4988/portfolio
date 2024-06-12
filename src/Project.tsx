@@ -42,7 +42,7 @@ function Project(props: any) {
                     <i style={{ color: theme.palette.text.secondary }} className='card-description'>{project.description}</i>
                 }
                 {markdown}
-                <div className='row'>
+                <div className='row-wrap'>
                     {tags}
                 </div>
             </CardContent>
