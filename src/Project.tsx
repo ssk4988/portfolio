@@ -25,7 +25,6 @@ function Project(props: any) {
     const openLink = () => {
         window.open(project.link);
     }
-    console.log(image);
     const header = usingNameLogo ? <img src={image} style={{ height: '50px', width: 'auto' }} /> : <>
         {imgSrc != '' && <Avatar src={image} sx={{ border: 2, borderColor: 'white' }} className='logo' />}
         <h3>{project.name}</h3>
