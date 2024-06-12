@@ -23,6 +23,16 @@
     ],
     "Experience": [
         {
+            "company": "CSAA",
+            "companylink": "https://csaa-insurance.aaa.com/",
+            "title": "Software Engineering Intern",
+            "logo": "CSAA",
+            "description": "Coming soon",
+            "start": "May 2024",
+            "end": "Present",
+            "tags": []
+        },
+        {
             "company": "UCF VARLab",
             "title": "Undergraduate Research Assistant",
             "logo": "VARLab",
@@ -313,7 +323,8 @@
         "Eagle Scout": "eaglescout.png",
         "Meta Hacker Cup": "hackercup.webp",
         "2nd Place": "second.png",
-        "Mobopoly": "mobopoly.png"
+        "Mobopoly": "mobopoly.png",
+        "CSAA": "csaa.png"
     },
     "Awards": [
         {

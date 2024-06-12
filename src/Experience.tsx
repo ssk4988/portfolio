@@ -37,9 +37,9 @@ function Experience(props: any) {
                         color={theme.palette.text.primary}
                     >{experience.company + " | " + experience.title}
                     </Typography>
-                    <IconButton onClick={openCompanyLink}>
+                    {experience.companylink && <IconButton onClick={openCompanyLink}>
                         <LinkOutlined />
-                    </IconButton>
+                    </IconButton>}
                     <div className='date'>
                         <p>{experience.start + ' - ' + experience.end}</p>
                     </div>
