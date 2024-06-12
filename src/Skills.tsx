@@ -16,7 +16,7 @@ function Skills() {
         return <Card className="skill-card" key={category} sx={{ display: 'inline-block', textAlign: 'center' }}>
           <CardContent>
             <h1>{category}</h1>
-            <div className='row'>
+            <div className='row-wrap' style={{justifyContent: 'center'}}>
               {skillList.map((skill: string) => { return <Skill name={skill} key={skill}/> })}
             </div>
           </CardContent>

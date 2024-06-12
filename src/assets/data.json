@@ -257,7 +257,8 @@
             "TypeScript",
             "C#",
             "Dart",
-            "C"
+            "C",
+            "Rust"
         ],
         "Frameworks": [
             "Angular",
@@ -266,13 +267,19 @@
             "Flutter",
             "Unity",
             "FastAPI",
-            "Selenium"
+            "Selenium",
+            "Three.js",
+            "JSP"
         ],
         "Developer Tools": [
             "Git",
+            "Linux",
+            "Docker",
             "Visual Studio",
             "Visual Studio Code",
-            "Jupyter Notebook"
+            "Jupyter Notebook",
+            "DevOps",
+            "CI/CD"
         ],
         "Machine Learning": [
             "Tensorflow",
@@ -281,9 +288,22 @@
             "OpenCV"
         ],
         "Cybersecurity": [
-            "Cryptography",
+            "Qualys",
+            "ServiceNow VR",
             "Palo Alto Firewalls",
+            "Cryptography",
             "Networking"
+        ],
+        "Cloud Computing": [
+            "Azure",
+            "AWS",
+            "Google Cloud",
+            "Firebase",
+            "Azure Container Apps",
+            "AWS EC2",
+            "AWS Lambda",
+            "Google Cloud Functions",
+            "Google Cloud Firestore"
         ]
     },
     "Logos": {
@@ -322,11 +342,37 @@
         "Boy Scouts of America": "bsa.png",
         "Eagle Scout": "eaglescout.png",
         "Meta Hacker Cup": "hackercup.webp",
+        "1st Place": "first.png",
         "2nd Place": "second.png",
         "Mobopoly": "mobopoly.png",
-        "CSAA": "csaa.png"
+        "CSAA": "csaa.png",
+        "Rust": "rust.png",
+        "Three.js": "three.png",
+        "JSP": "jsp.jpg",
+        "Linux": "linux.png",
+        "Docker": "docker.png",
+        "Qualys": "qualys.png",
+        "Palo Alto Firewalls": "paloalto.webp",
+        "Azure": "azure.png",
+        "AWS": "aws.png",
+        "Google Cloud": "googlecloud.png",
+        "Azure Container Apps": "azurecontainerapps.png",
+        "AWS EC2": "awsec2.png",
+        "AWS Lambda": "awslambda.png",
+        "Firebase": "firebase.png",
+        "Google Cloud Functions": "googlecloudfunctions.png",
+        "Google Cloud Firestore": "cloudfirestore.jpg"
     },
     "Awards": [
+        {
+            "award": "1st Place",
+            "logo": "1st Place",
+            "context": "ACM ICPC Southeast Regionals",
+            "year": 2024,
+            "contextlogo": "ICPC",
+            "tooltip": "As part of UCF Apocalypse Attack",
+            "link": "https://nasouth23.kattis.com/contests/nasouth23d1/standings?filter=5667"
+        },
         {
             "award": "2nd Place",
             "logo": "2nd Place",
@@ -339,14 +385,16 @@
             "context": "ACM ICPC Southeast Regionals",
             "year": 2023,
             "contextlogo": "ICPC",
-            "tooltip": "As part of UCF Command Block"
+            "tooltip": "As part of UCF Command Block",
+            "link": "https://nasouth22d1.kattis.com/contests/nasouth22d1/standings?filter=4997"
         },
         {
             "award": "Master",
             "context": "CodeForces",
             "year": 2023,
             "contextlogo": "CodeForces",
-            "tooltip": "Max Rating: 2150, Top 100 Active Coders in the US"
+            "tooltip": "Max Rating: 2275, Top 50 Active Coders in the US",
+            "link": "https://codeforces.com/profile/ssk4988"
         },
         {
             "award": "10th Place",
@@ -375,6 +423,12 @@
             "context": "Boy Scouts of America",
             "contextlogo": "Boy Scouts of America",
             "year": 2019
+        },
+        {
+            "award": "Top 3%",
+            "context": "Meta Hacker Cup",
+            "contextlogo": "Meta Hacker Cup",
+            "year": 2023
         },
         {
             "award": "Round 2",
